@@ -10,6 +10,7 @@ setup(
     license="MIT",
     packages=["library1","library2"],
     install_requires=[
-        "numpy==1.19.1"
+        "numpy==1.19.1",
+        "kafka==1.3.5"
     ]
 )
