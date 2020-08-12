@@ -8,6 +8,6 @@ setup(
     author_email="ayan@gmail.com",
     url="https://github.com/mazh661/python_lib",
     license="MIT",
-    packages=["library1"],
+    packages=["library1","library2"],
     install_requires=[]
 )
