@@ -8,7 +8,7 @@ setup(
     author_email="ayan@gmail.com",
     url="https://github.com/mazh661/python_lib",
     license="MIT",
-    packages=["library1","library2"],
+    packages=["library1","library2","kafka_lib"],
     install_requires=[
         "numpy==1.19.1",
         "kafka==1.3.5"

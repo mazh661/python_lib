@@ -1,5 +1,8 @@
 README.md
 setup.py
+kafka_lib/__init__.py
+kafka_lib/cons.py
+kafka_lib/prod.py
 library1/__init__.py
 library1/utilis.py
 library1.egg-info/PKG-INFO
