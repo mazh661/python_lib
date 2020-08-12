@@ -9,5 +9,7 @@ setup(
     url="https://github.com/mazh661/python_lib",
     license="MIT",
     packages=["library1","library2"],
-    install_requires=[]
+    install_requires=[
+        "numpy==1.19.1"
+    ]
 )
