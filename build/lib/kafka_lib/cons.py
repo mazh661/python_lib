@@ -7,4 +7,4 @@ def cons(topicName):
     )
     for msg in consumer:
     data=json.loads(msg.value)
-    print(data)
+    return data
