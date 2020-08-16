@@ -6,5 +6,5 @@ def cons(topicName):
     consumer=KafkaConsumer(topicName, group_id="user5", bootstrap_servers=servers, auto_offset_reset="earliest"
     )
     for msg in consumer:
-    data=json.loads(msg.value)
+        data=json.loads(msg.value)
     return data
